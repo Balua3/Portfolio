@@ -1,0 +1,61 @@
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url();
+}
+.container-fluid{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/bgport.webp);
+}
+
+.nav-link{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 22px;
+    scroll-behavior: smooth;
+}
+.nav-link:hover{
+    color: burlywood;
+    
+}
+.head{
+    color: cornsilk;
+    font-weight: 500;
+    font-size: 50px;
+    padding-right:30px;
+    
+}
+.head::after{
+    color: cornsilk;
+}
+.head::before{
+    color: coral;
+}
+.head:hover{
+    text-transform: uppercase;
+    color: goldenrod;
+}
+h2,p{
+    color: aliceblue;
+
+}
+/* .container{
+
+    background-color: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+} */
+.container1{
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    /* margin-left: 27%; */
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/images/bgport.webp);
+    text-align: center;
+    
+    
+}
+.container-bg{
+    animation: alternate-reverse;
+    background-color: black;
+}
+.container-p-5{
+    background-color: black;
+}
